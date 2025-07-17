@@ -32,17 +32,17 @@
   --small-font-size: .813rem;
   --smaller-font-size: .75rem;
 
-  /*========== Font weight ==========*/
+  /* Font weight */
   --font-regular: 400;
   --font-medium: 500;
   --font-semi-bold: 600;
 
-  /*========== z index ==========*/
+  /*z index*/
   --z-tooltip: 10;
   --z-fixed: 100;
 }
 
-/*========== Responsive typography ==========*/
+/*Responsive typography */
 @media screen and (min-width: 1150px) {
   :root {
     --biggest-font-size: 4.25rem;
@@ -558,7 +558,7 @@ img {
   transform: translateY(-.5rem);
 }
 
-/*=============== CONTACT ===============*/
+/* CONTACT*/
 .contact__container {
   position: relative;
   background-color: var(--first-color-dark);
@@ -776,7 +776,7 @@ img {
   bottom: 3rem;
 }
 
-/*=============== BREAKPOINTS ===============*/
+/* BREAKPOINTS */
 /* For small devices */
 @media sreen and (max-width: 320px){
   .container{
@@ -803,7 +803,7 @@ img {
     border-radius: 4rem;
   }
 }
-/* For medium devices */
+/* responsuivo para  */
 @media screen and (min-width: 576px){
   .home__container,
   .about__container,
@@ -858,7 +858,7 @@ img {
   }
 }
 
-/* For large devices */
+/* para telas maiores ex:desktop */
 @media screen and (min-width: 1150px){
   .container {
     margin-inline: auto;
